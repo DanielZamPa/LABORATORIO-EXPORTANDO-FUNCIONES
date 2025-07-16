@@ -17,3 +17,7 @@ console.log(DIAS_SEMANA[2]);
 
 /*EJERCICIO 2 */
 import {sumar, restar, multiplicar, areaCirculo} from './operaciones_matematicas.js'
+console.log("Suma: ",sumar(12,-6));
+console.log("Restar: ",restar(9,5));
+console.log("Multiplicar: ",multiplicar(2,5));
+console.log("Area del circulo: ",areaCirculo(PI, 31));
