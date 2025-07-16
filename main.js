@@ -21,3 +21,19 @@ console.log("Suma: ",sumar(12,-6));
 console.log("Restar: ",restar(9,5));
 console.log("Multiplicar: ",multiplicar(2,5));
 console.log("Area del circulo: ",areaCirculo(PI, 31));
+
+/*EJERCICIO 3 */
+import {DESCUENTO} from './constantes.js'
+import {calcularTotal, aplicarImpuestos, aplicarDescuento} from './operaciones_matematicas.js'
+
+class Producto{
+    contructor(nombre, precio){
+        this.nombre = nombre;
+        this.precio = precio;
+    }
+}
+
+let producto1 = new Producto("Caja de plastilina", 9000);
+let producto2 = new Producto("Cuaderno", 5000);
+let producto3 = new Producto("Esfero", 1000);
+console.log();
